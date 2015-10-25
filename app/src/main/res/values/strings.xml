@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Planner</string>
+    <string name="bill_list_label">My Bill List</string>
+    <string name="task_list_label">My Task List</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="add_item">Add Task</string>
+    <string name="add_bill">Add Bill</string>
+    <string name="subtitle_format">%1s tasks</string>
+    <string name="task_title_hint">Enter a title for the task.</string>
+    <string name="bill_title_hint">Enter a title for the bill.</string>
+    <string name="task_description_hint">Enter a description for the task</string>
+    <string name="bill_description_hint">Enter a description for the bill</string>
+    <string name="task_title_label">Task</string>
+    <string name="bill_title_label">Bill</string>
+    <string name="task_details_label">Details</string>
+    <string name="bill_details_label">Details</string>
+    <string name="task_finished_label">Finished</string>
+    <string name="bill_paid_label">Paid</string>
+    <string name="task_priority_label">Priority</string>
+    <string name="bill_priority_label">Priority</string>
+    <string name="task_due_by_label"> Due By:</string>
+    <string name="bill_due_by_label">Due By:</string>
+    <string name="date_picker_title">Date of task: </string>
+    <string name="hide_subtitle">Hide Task Amount</string>
+    <string name="show_subtitle">Show Task Amount</string>
+    <string name="toast_delete_task">Task Deleted!</string>
+    <string name="toast_delete_bill">Bill Deleted!</string>
+</resources>

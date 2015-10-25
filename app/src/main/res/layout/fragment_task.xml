@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_title_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    <EditText android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_title_hint"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_details_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    <EditText android:id="@+id/task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_description_hint"
+        />
+    <TextView android:id="@+id/priority_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_priority_label"
+        />
+  <!--  <Spinner android:id="@+id/priority_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_toRightOf="@id/priority_label"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+    /> -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/task_due_by_label"
+        />
+    <Button android:id="@+id/task_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            />
+    <CheckBox android:id="@+id/task_finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/task_finished_label"
+        />
+
+
+</LinearLayout>
